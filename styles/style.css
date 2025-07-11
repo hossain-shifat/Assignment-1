@@ -226,3 +226,48 @@ header{
     max-width: 850px;
     border-radius: 48px;
 }
+
+/* get in touch */
+.get-touch{
+    margin: 14px 150px;
+}
+
+.get-touch-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.get-touch-left{
+    display: flex;
+    justify-content: space-between;
+    margin: 200px 0px;
+}
+
+.get-touch-left-title{
+    font-size: 96px;
+    font-weight: bold;
+}
+
+.form-container{
+    margin: 71px 0px;
+}
+
+.get-touch-inputs{
+    display: grid;
+    justify-content: center;
+}
+label{
+    font-family: "Inter";
+    padding-bottom: 10px;
+}
+input{
+    width: 300px;
+    margin-bottom: 19px;
+    padding: 20px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+.input-message{
+    height: 100px;
+}
