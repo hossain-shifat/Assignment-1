@@ -8,6 +8,10 @@
     font-family: "Raleway";
 }
 
+::-webkit-scrollbar{
+    display: none;
+}
+
 
 /* Primary */
 .container{
@@ -192,4 +196,33 @@ header{
 .user-date{
     font-family: "Inter";
     font-size: 12px;
+    color: rgba(0, 0, 0, 0.5);
+}
+/* stay focus section */
+
+.focus-better{
+    margin: 0px 149px 92px 152px;
+}
+.focus-better-container{
+    margin: 70px 150px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.focus-header p{
+    font-size: 50px;
+    font-weight: bold;
+}
+.focus-detail p{
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.5);
+    padding: 20px 0px;
+}
+.focus-banner{
+    padding-top: 20px;
+}
+.focus-banner img{
+    max-width: 850px;
+    border-radius: 48px;
 }
