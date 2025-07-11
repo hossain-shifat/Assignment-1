@@ -271,3 +271,34 @@ input{
 .input-message{
     height: 100px;
 }
+
+/* footer */
+.footer-container{
+    margin: 110px 455px;
+    text-align: center;
+}
+.footer-logo{
+    font-size: 100px;
+    font-weight: bold;
+    font-family: "Inter";
+    color: #4E47FF;
+}
+.footer-description{
+    color: #8987A1;
+    font-size: 12px;
+    padding-top: 8px;
+    padding-bottom: 20px;
+}
+.footer-content ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-content ul li{
+    list-style: none;
+}
+.footer-content ul li a{
+    color: #8987A1;
+    font-size: 12px;
+    text-decoration: none;
+}
