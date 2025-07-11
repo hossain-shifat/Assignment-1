@@ -26,9 +26,10 @@ header{
 .btn{
     background: #4E47FF;
     font-family: "Raleway";
+    font-weight: 700;
+    color: #fff;
     border-radius: 10px;
     font-size: 16px;
-    font-weight: 700;
     padding: 14px 35px;
     border: none;
     cursor: pointer;
@@ -93,4 +94,40 @@ header{
     aspect-ratio: 402/328;
     object-fit: cover;
     border-radius: 48px;
+}
+
+/* user section */
+
+.user-container{
+    display: grid;
+    justify-content: center;
+    margin: 116px 159px 137px 149px;
+    border-radius: 38px;
+    background-color: rgba(78 ,71, 255, 0.1);
+    border: 1px solid #fff;
+}
+.user-detail{
+    margin: 50px 80px;
+}
+.user-header{
+    font-size: 38px;
+    font-weight: bold;
+    padding-bottom: 40px;
+}
+
+.user-count-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.users{
+    font-size: 80px;
+    font-weight: bold;
+    font-family: "Inter";
+    color: #4E47FF;
+}
+.users-status{
+    font-size: 20px;
+    font-family: "Inter";
+    color: rgba(0, 0, 0, 0.5);
 }
