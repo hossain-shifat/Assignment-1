@@ -272,9 +272,11 @@ input{
     height: 100px;
 }
 
+
 /* footer */
 .footer-container{
-    margin: 110px 455px;
+    max-width: 1000px;
+    margin: 110px auto;
     text-align: center;
 }
 .footer-logo{
@@ -291,7 +293,8 @@ input{
 }
 .footer-content ul{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 30px;
 }
 
 .footer-content ul li{
