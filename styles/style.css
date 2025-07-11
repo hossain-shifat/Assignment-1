@@ -46,6 +46,7 @@ header{
     background: transparent;
     border: 1px solid #4E47FF;
     transition: .1s;
+    color: black;
 }
 
 
@@ -77,6 +78,7 @@ header{
     padding-bottom: 36px;
     font-size: 65px;
     font-weight: bold;
+    color: black;
 }
 
 /* action section */
