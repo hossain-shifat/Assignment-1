@@ -6,6 +6,7 @@
     margin: 0;
     padding: 0;
     font-family: "Raleway";
+    background-color: #f5f8ff;
 }
 
 ::-webkit-scrollbar{
@@ -155,7 +156,7 @@ header{
 
 .user-review-box{
     border-radius: 14px;
-    background-color: #e7e7e7;
+    background-color: #fff;
 }
 
 .user-rating-img{
@@ -202,6 +203,8 @@ header{
 
 .focus-better{
     margin: 0px 149px 92px 152px;
+    border-radius: 14px;
+    background-color: #fff;
 }
 .focus-better-container{
     margin: 70px 150px;
@@ -265,8 +268,10 @@ input{
     margin-bottom: 19px;
     padding: 20px;
     border-radius: 10px;
+    background-color: #fff;
     border: none;
     outline: none;
+
 }
 .input-message{
     height: 100px;
