@@ -131,3 +131,65 @@ header{
     font-family: "Inter";
     color: rgba(0, 0, 0, 0.5);
 }
+
+/* user review section */
+.user-review{
+    margin: 0px 150px 137px 150px;
+}
+.user-review-header{
+    text-align: center;
+    padding-bottom: 50px;
+}
+.user-review-title{
+    font-size: 42px;
+    font-weight: bold;
+}
+.user-review-box-main{
+    display: flex;
+    justify-content: space-between;
+}
+
+.user-review-box{
+    border-radius: 14px;
+    background-color: #e7e7e7;
+}
+
+.user-rating-img{
+    margin: 24px 24px 0px 24px;
+}
+.user-heading{
+    margin: 12px 24px 12px 24px;
+}
+.user-description{
+    margin: 0px 24px 12px 24px;
+    font-size: 12px;
+}
+.star{
+    width: 15px;
+    height: 15px;
+}
+.user-profile{
+    display: flex;
+    margin: 12px 24px 12px 24px;
+}
+
+.user-profile img{
+    width: 30px;
+    height: 30px;
+}
+
+.user-info{
+    display: inline;
+    margin: 0px 24px 24px 12px;
+}
+
+.user-name{
+    font-size: 12px;
+    font-weight: bold;
+    font-family: "Inter";
+    color: #757575;
+}
+.user-date{
+    font-family: "Inter";
+    font-size: 12px;
+}
