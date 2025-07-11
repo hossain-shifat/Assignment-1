@@ -41,6 +41,7 @@ header{
 .btn:hover{
     background: transparent;
     border: 1px solid #4E47FF;
+    transition: .1s;
 }
 
 
@@ -223,8 +224,8 @@ header{
     color: rgba(0, 0, 0, 0.5);
     padding: 20px 0px;
 }
-.button{
-    margin-bottom: 20px;
+.focus-banner{
+    margin-top: 20px;
 }
 .focus-banner img{
     max-width: 850px;
